@@ -1,0 +1,90 @@
+*{
+    /* border:1px solid red; */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(68, 68, 68);
+    margin: 0;
+    cursor: pointer;
+}
+
+.container {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+label, button {
+    margin-top: 10px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+}
+#message{
+    color: black;
+    font-weight: 900;
+}
+.content{
+    box-shadow: 0px 0px 15px white;
+}
+.circel{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    border: 0px;
+
+}
+.data{
+    margin-left: -30px;
+    margin-top: 20px;
+}
+.circle1{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: none;
+    margin-top: 40px;
+    margin-left: -15px;
+}
+.main{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(68, 68, 68);
+    margin: 0;
+    cursor: pointer;
+border: 5px solid red;
+height: 80%;
+width: 60%;
+border-radius: 50%;
+}
+.main1{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(68, 68, 68);
+    margin: 0;
+    cursor: pointer;
+border: 5px solid rgb(255, 251, 0);
+height: 80%;
+width: 60%;
+border-radius: 50%;
+}
