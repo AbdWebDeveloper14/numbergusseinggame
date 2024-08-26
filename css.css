@@ -1,7 +1,14 @@
 *{
     /* border:1px solid red; */
 }
-
+.main{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(105, 105, 105);
+}
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -13,12 +20,13 @@ body {
     cursor: pointer;
 }
 
-.container {
+.width-control{
     text-align: center;
     border: 1px solid #ddd;
     padding: 20px;
-    background-color: #fff;
+    background-color: rgb(68, 68, 68);
     border-radius: 8px;
+    width: 400px;
 }
 
 h1 {
@@ -39,52 +47,44 @@ input {
 }
 .content{
     box-shadow: 0px 0px 15px white;
+    height: auto;
+    width: auto;
 }
-.circel{
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    background-color: white;
-    border: 0px;
+.white{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+.label{
+    color: white;
+    font-weight: 700;
+     font-size: 20px;
+}
+.label:hover{
+    color : gray;
+    transition: 0.5s;
+}
+.button{
+    height: 30px;
+    width: 150px;
+    border: none;
+    outline: none;
+    color: black;
+    font-weight: 700;
 
 }
-.data{
-    margin-left: -30px;
-    margin-top: 20px;
+.button:hover{
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: black;
 }
-.circle1{
+.input{
     height: 30px;
-    width: 30px;
-    border-radius: 50%;
+    width: 150px;
     border: none;
-    margin-top: 40px;
-    margin-left: -15px;
-}
-.main{
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: rgb(68, 68, 68);
-    margin: 0;
-    cursor: pointer;
-border: 5px solid red;
-height: 80%;
-width: 60%;
-border-radius: 50%;
-}
-.main1{
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: rgb(68, 68, 68);
-    margin: 0;
-    cursor: pointer;
-border: 5px solid rgb(255, 251, 0);
-height: 80%;
-width: 60%;
-border-radius: 50%;
+    outline: none;
+    color: black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: bolder;
 }
